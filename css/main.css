@@ -1,0 +1,39 @@
+div {
+  max-width: 500px;
+  margin: auto;
+}
+
+p{
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+span{
+    font-size: 1.5em;
+    font-family: 'Cutive Mono', monospace;
+    color: cornflowerblue;
+}
+
+
+
+input[type=text] {
+    margin: 1rem;
+    font-family: 'Raleway', sans-serif;
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
